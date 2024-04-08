@@ -12,7 +12,7 @@ export default {
     key: "2.0-release",
     text: (
       <a href="https://openarmor.com" target="_blank">
-        🎉 OpenArmor 0.1 is released. Read more →
+        🎉 OpenArmor 0.1 will be releasing soon. Read more →
       </a>
     ),
   },

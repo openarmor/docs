@@ -1,0 +1,25 @@
+[Methodology](#methodology)
+
+- [Data Acquisition Phase](#data-acquisition-phase)
+- [Data Processing Phase](#data-processing-phase)
+- [Threat Detection and Response Phase](#threat-detection-and-response-phase)
+
+## Methodology
+
+To develop OpenArmor, an advanced cybersecurity solution leveraging AI and advanced logging, we followed a systematic approach combining cutting-edge technologies and industry best practices. The methodology can be divided into three main phases: data acquisition, data processing, and threat detection and response.
+
+### Data Acquisition Phase
+
+In this phase, we employed eBPF (Extended Berkeley Packet Filter) for efficient kernel-level logging and monitoring of system activities. eBPF provides a safe and efficient way to run sandboxed programs in the Linux kernel, allowing us to gain complete visibility into system activities without the overhead of traditional monitoring methods.
+
+### Data Processing Phase
+
+The raw log data collected through eBPF was structured and enriched using the OCSF (Ordered Cloud Security Format) standard. OCSF is a standardized format for representing security events, enabling better analysis and interoperability with other security tools. This phase involved parsing and enriching the log data with relevant contextual information, such as timestamps, source and destination IP addresses, and event types.
+
+### Threat Detection and Response Phase
+
+This phase leveraged artificial intelligence and machine learning techniques to establish a baseline of normal system behavior and automatically detect anomalies or potential threats. We employed unsupervised learning algorithms, such as clustering and outlier detection, to identify patterns and deviations from the established baseline.
+
+Once potential threats were detected, OpenArmor's AI-driven system triggered automated alerts and provided actionable insights for rapid investigation and response. The system continuously monitored for new threats, enabling proactive cybersecurity measures rather than reactive defense.
+
+Throughout the development process, we adhered to industry best practices and rigorous testing methodologies to ensure the accuracy, reliability, and scalability of OpenArmor. The solution was designed to provide enterprise-grade protection through continuous monitoring, automated analysis, and timely alerts, ultimately reducing the overall risk profile and hardening cyber defenses.
