@@ -72,22 +72,51 @@ export default {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="favicon_io/apple-touch-icon.png"
+          href="/apple-touch-icon.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="favicon_io/favicon-32x32.png"
+          href="/favicon-32x32.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="../favicon_io/favicon-16x16.png"
+          href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
       </>
     );
+  },
+
+  footer: {
+    text: (
+      <span>
+        OpenArmor{" "}
+        <span
+          style={{
+            fontWeight: "bold",
+            fontSize: "1.2em",
+          }}
+        >
+          X
+        </span>
+        <a href="https://techanv.com" target="_blank">
+          <img
+            src="https://techanv.com/assets/img/ghost-img.gif"
+            alt="techanv"
+            width={50}
+            height={50}
+            style={{
+              display: "inline-block",
+              marginTop: "-8px",
+              marginLeft: "-8px",
+            }}
+          />
+        </a>
+      </span>
+    ),
   },
 };
