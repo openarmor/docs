@@ -2,7 +2,28 @@ import { useRouter } from "next/router";
 import { useConfig } from "nextra-theme-docs";
 
 export default {
-  logo: <span>OpenArmor Documentation</span>,
+  logo: (
+    <span>
+      <img
+        src="https://raw.githubusercontent.com/openarmor/favicons/main/openarmor-security.gif"
+        alt="logo"
+        width={80}
+        height={80}
+        style={{
+          display: "inline-block",
+          marginTop: "0",
+          // marginLeft: "10px",
+        }}
+      />
+      <span
+        style={{
+          marginLeft: "-18px",
+        }}
+      >
+        OpenArmor Documentation
+      </span>
+    </span>
+  ),
   project: {
     link: "https://github.com/openarmor",
   },
@@ -109,9 +130,9 @@ export default {
         >
           X
         </span>
-        <a href="https://techanv.com" target="_blank">
+        <a href="https://techanvconsulting.github.io" target="_blank">
           <img
-            src="https://techanv.com/assets/img/ghost-img.gif"
+            src="https://raw.githubusercontent.com/openarmor/favicons/main/ghost-img.gif"
             alt="techanv"
             width={50}
             height={50}
